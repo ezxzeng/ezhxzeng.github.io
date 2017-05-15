@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4c32ad-3ba0-4379-acb3-c4fc09a0baca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/facial_recognition/fancy_single.jpg" afterPath="$PROJECT_DIR$/images/portfolio/facial_recognition/fancy_single.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3640">
-              <caret line="439" column="80" lean-forward="false" selection-start-line="439" selection-start-column="80" selection-end-line="439" selection-end-column="80" />
+            <state relative-caret-position="681">
+              <caret line="439" column="55" lean-forward="false" selection-start-line="439" selection-start-column="55" selection-end-line="439" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -34,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -624,15 +625,15 @@
       <workItem from="1494792154698" duration="2426000" />
       <workItem from="1494854764157" duration="3646000" />
       <workItem from="1494861187673" duration="1549000" />
-      <workItem from="1494874323715" duration="8837000" />
+      <workItem from="1494874323715" duration="8843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24069000" />
+    <option name="totallyTimeSpent" value="24075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="2584" height="1412" extended-state="7" />
+    <frame x="-12" y="-12" width="2584" height="1412" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1010,15 +1011,15 @@
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3640">
-          <caret line="439" column="80" lean-forward="false" selection-start-line="439" selection-start-column="80" selection-end-line="439" selection-end-column="80" />
+        <state relative-caret-position="681">
+          <caret line="439" column="55" lean-forward="false" selection-start-line="439" selection-start-column="55" selection-end-line="439" selection-end-column="55" />
           <folding />
         </state>
       </provider>
