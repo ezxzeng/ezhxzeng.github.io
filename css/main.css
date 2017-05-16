@@ -2127,7 +2127,7 @@ header .header-logo a {
 
     .about-profile .intro,
     .about-services .intro {
-        text-align: center;
+        text-align: left;
     }
 
     .about-profile {
@@ -2158,7 +2158,7 @@ header .header-logo a {
     }
 
     .about-services {
-        text-align: center;
+        text-align: left;
     }
 
     .about-services ul.services .icon-wrap {
