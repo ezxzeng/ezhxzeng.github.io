@@ -18,6 +18,7 @@
  *  10. about
  *  11. skills
  *  12. credentials
+ *  12.2 awards
  *  13. portfolio
  *  14. stats
  *  15. contact
@@ -1920,275 +1921,6 @@ header .header-logo a {
 }
 
 /* ===================================================================
- *  09.01 portfolio
- *
- * ------------------------------------------------------------------- */
-
-/*#portfolio-home {*/
-    /*background: #151515;*/
-    /*width: 100%;*/
-    /*height: 50%;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*min-height: 804px;*/
-    /*position: relative;*/
-/*}*/
-
-/*#portfolio-home .gradient-overlay {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 50%;*/
-    /*opacity: .2;*/
-    /*background: -moz-linear-gradient(left, black 0%, black 20%, transparent 100%);  !* FF3.6-15 *!*/
-    /*background: -webkit-linear-gradient(left, black 0%, black 20%, transparent 100%);  !* Chrome10-25,Safari5.1-6 *!*/
-    /*background: linear-gradient(to right, black 0%, black 20%, transparent 100%);  !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
-    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000', GradientType=1);  !* IE6-9 *!*/
-/*}*/
-
-/*#portfolio-home .overlay {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 50%;*/
-    /*opacity: .6;*/
-    /*background-color: #000000;*/
-/*}*/
-
-/*.portfolio-home-content-table {*/
-    /*width: 100%;*/
-    /*height: 50%;*/
-    /*display: table;*/
-    /*position: relative;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell {*/
-    /*display: table-cell;*/
-    /*vertical-align: bottom;*/
-    /*z-index: 500;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell .row {*/
-    /*position: relative;*/
-    /*padding-top: 4.2rem;*/
-    /*padding-bottom: 15rem;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell h3 {*/
-    /*font-family: "montserrat-bold", sans-serif;*/
-    /*font-size: 2.2rem;*/
-    /*color: rgba(255, 255, 255, 0.35);*/
-    /*text-transform: uppercase;*/
-    /*letter-spacing: .15rem;*/
-    /*margin: 0 0 0 .3rem;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell h1 {*/
-    /*font-family: "librebaskerville-bold", serif;*/
-    /*font-size: 5.2rem;*/
-    /*line-height: 1.5;*/
-    /*color: #FFFFFF;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell .home-section-links {*/
-    /*display: inline-block;*/
-    /*list-style: none;*/
-    /*margin: 4.8rem 0 0 0;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell .home-section-links li {*/
-    /*display: inline-block;*/
-    /*font-family: "montserrat-bold", sans-serif;*/
-    /*font-size: 1.4rem;*/
-    /*text-transform: uppercase;*/
-    /*letter-spacing: .1rem;*/
-    /*color: rgba(255, 255, 255, 0.35);*/
-    /*margin-right: 1.5rem;*/
-    /*margin-bottom: .6rem;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell .home-section-links li:last-child {*/
-    /*margin-right: 0;*/
-/*}*/
-
-/*.portfolio-home-content-tablecell .home-section-links a {*/
-    /*font-family: "librebaskerville-regular", serif;*/
-    /*font-size: 1.8rem;*/
-    /*text-transform: none;*/
-    /*letter-spacing: 0;*/
-    /*color: #FFFFFF;*/
-    /*margin-left: .3rem;*/
-/*}*/
-
-/*!* vertical animation *!*/
-/*@-webkit-keyframes vertical {*/
-    /*0%,*/
-    /*60%,*/
-    /*80%,*/
-    /*100% {*/
-        /*-webkit-transform: translateY(0);*/
-    /*}*/
-
-    /*20% {*/
-        /*-webkit-transform: translateY(-5px);*/
-    /*}*/
-
-    /*40% {*/
-        /*-webkit-transform: translateY(20px);*/
-    /*}*/
-
-/*}*/
-
-/*@keyframes vertical {*/
-    /*0%,*/
-    /*60%,*/
-    /*80%,*/
-    /*100% {*/
-        /*-webkit-transform: translateY(0);*/
-    /*}*/
-
-    /*20% {*/
-        /*-webkit-transform: translateY(-5px);*/
-    /*}*/
-
-    /*40% {*/
-        /*-webkit-transform: translateY(20px);*/
-    /*}*/
-
-/*}*/
-
-/*!* -------------------------------------------------------------------*/
- /** responsive:*/
- /** home section*/
- /** ------------------------------------------------------------------- *!*/
-/*@media only screen and (max-width:1200px) {*/
-    /*.portfolio-home-content-tablecell h3 {*/
-        /*font-size: 2.1rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 {*/
-        /*font-size: 5rem;*/
-    /*}*/
-
-/*}*/
-
-/*@media only screen and (max-width:1024px) {*/
-    /*.portfolio-home-content-tablecell h3 {*/
-        /*font-size: 2rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 {*/
-        /*font-size: 4.8rem;*/
-    /*}*/
-
-/*}*/
-
-/*@media only screen and (max-width:768px) {*/
-    /*.portfolio-home-content-tablecell .row {*/
-        /*padding-bottom: 11.4rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .portfolio-home-bottom-text {*/
-        /*padding-right: 15%;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h3 {*/
-        /*font-size: 1.8rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 {*/
-        /*font-size: 4rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 br {*/
-        /*display: none;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .home-section-links {*/
-        /*margin: 4.2rem 0 0 0;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .home-section-links li {*/
-        /*font-size: 1.3rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .home-section-links a {*/
-        /*font-size: 1.6rem;*/
-    /*}*/
-
-/*}*/
-
-/*@media only screen and (max-width:600px) {*/
-    /*#portfolio-home {*/
-        /*min-height: 702px;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell {*/
-        /*vertical-align: middle;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .row {*/
-        /*padding-top: 9rem;*/
-        /*padding-bottom: 3rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .home-bottom-text {*/
-        /*padding-right: 10%;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h3 {*/
-        /*font-size: 1.7rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 {*/
-        /*font-size: 3.8rem;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-width:500px) {*/
-    /*.portfolio-home-content-tablecell .home-bottom-text {*/
-        /*padding-right: 5%;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h3 {*/
-        /*font-size: 1.5rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 {*/
-        /*font-size: 3.4rem;*/
-    /*}*/
-
-/*}*/
-
-/*@media only screen and (max-width:400px) {*/
-    /*#portfolio-home {*/
-        /*min-height: 654px;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .home-bottom-text {*/
-        /*padding-right: 0;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h3 {*/
-        /*font-size: 1.4rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell h1 {*/
-        /*font-size: 3.2rem;*/
-    /*}*/
-
-    /*.portfolio-home-content-tablecell .home-section-links {*/
-        /*margin: 1.5rem 0 0 0;*/
-    /*}*/
-
-/*}*/
-
-/* ===================================================================
  *  10. about - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
@@ -2697,6 +2429,153 @@ header .header-logo a {
 	}
 
 }
+
+/* ===================================================================
+ *  12.2 awards - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#awards {
+	background: #FFFFFF;
+	position: relative;
+	padding: 12rem 0 9rem;
+}
+
+#awards .credentials-content h2 {
+	margin-bottom: 4.8rem;
+	color: #4C2405;
+	padding-left: 8rem;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	position: relative;
+}
+
+#awards .credentials-content h2::before {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 4rem;
+	background-color: #aeaeae;
+	position: absolute;
+	top: 50%;
+	left: 2rem;
+	margin-top: -3px;
+}
+
+#awards .left {
+	padding-right: 40px;
+}
+
+#awards .right {
+	padding-left: 40px;
+}
+
+#awards .timeline-wrap {
+	position: relative;
+	text-align: left;
+}
+
+#awards .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 2rem;
+	top: 0;
+}
+
+#awards .timeline-block {
+	position: relative;
+	padding-left: 8rem;
+	margin-bottom: 4.2rem;
+}
+
+#awards .timeline-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background: #4C2405;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 2rem;
+	top: 0;
+	margin-left: -2.4rem;
+}
+
+#awards .timeline-header .timeframe {
+	font-family: "montserrat-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #757575;
+	margin-bottom: 0;
+}
+
+#awards .timeline-header h3 {
+	font-size: 2.4rem;
+	line-height: 1.25;
+	margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * credentials
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1024px) {
+	#awards .left {
+		padding-right: 20px;
+	}
+
+	#awards .right {
+		padding-left: 20px;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	#awards .credentials-content h2 {
+		padding: 0;
+		text-align: center;
+	}
+
+	#awards .credentials-content h2::before {
+		display: none;
+	}
+
+	#awards .left {
+		padding-right: 10px;
+	}
+
+	#awards .right {
+		padding-left: 10px;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	#awards .timeline-block {
+		padding-left: 7rem;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	#awards .timeline-header .timeframe {
+		font-size: 1.5rem;
+	}
+
+	#awards .timeline-header h3 {
+		font-size: 2.2rem;
+	}
+
+	#awards .timeline-block {
+		padding-left: 6rem;
+	}
+
+}
+
 
 /* ===================================================================
  *  13. portfolio - (_layout.scss)
