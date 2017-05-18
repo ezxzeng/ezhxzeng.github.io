@@ -29,6 +29,8 @@
  *  01. webfonts and iconfonts - (_document-setup)
  *
  * ------------------------------------------------------------------- */
+
+
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("windows10/windows10.css");
 
@@ -120,7 +122,7 @@ body {
  * ------------------------------------------------------------------- */
 a,
 a:visited {
-    color: #f0a359;
+    color: #7c3b08;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
