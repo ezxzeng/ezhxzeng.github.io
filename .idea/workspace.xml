@@ -5,8 +5,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/0.template.html" afterPath="$PROJECT_DIR$/portfolio_html/0.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/Tron_days.html" afterPath="$PROJECT_DIR$/portfolio_html/Tron_days.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/e_commerce_website.html" afterPath="$PROJECT_DIR$/portfolio_html/e_commerce_website.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/facial_recognition.html" afterPath="$PROJECT_DIR$/portfolio_html/facial_recognition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/robotics.html" afterPath="$PROJECT_DIR$/portfolio_html/robotics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/sandwhich_maker.html" afterPath="$PROJECT_DIR$/portfolio_html/sandwhich_maker.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4321">
-              <caret line="514" column="46" lean-forward="true" selection-start-line="491" selection-start-column="16" selection-end-line="514" selection-end-column="46" />
+            <state relative-caret-position="870">
+              <caret line="125" column="52" lean-forward="true" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -37,21 +40,39 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="1665" column="1" lean-forward="true" selection-start-line="1665" selection-start-column="1" selection-end-line="1665" selection-end-column="1" />
+            <state relative-caret-position="824">
+              <caret line="1746" column="24" lean-forward="false" selection-start-line="1746" selection-start-column="24" selection-end-line="1746" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facial_recognition.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="facial_recognition.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio_html/facial_recognition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="94" column="73" lean-forward="false" selection-start-line="94" selection-start-column="73" selection-end-line="94" selection-end-column="73" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="1083">
+              <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sandwhich_maker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio_html/sandwhich_maker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tron_days.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio_html/Tron_days.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,11 +80,9 @@
       <file leaf-file-name="0.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio_html/0.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="160" column="89" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="160" selection-end-column="89" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="99" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="284" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,8 +91,20 @@
         <entry file="file://$PROJECT_DIR$/portfolio_html/robotics.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1083">
-              <caret line="499" column="7" lean-forward="false" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+              <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="e_commerce_website.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio_html/e_commerce_website.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="108" column="46" lean-forward="false" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+              <folding>
+                <marker date="1495568016560" expanded="true" signature="3148:4105" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +127,7 @@
       <find>abou</find>
       <find>text-align</find>
       <find>home</find>
+      <find>scroll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,16 +144,16 @@
         <option value="$PROJECT_DIR$/inc/sendEmail.php" />
         <option value="$PROJECT_DIR$/portfolio_html/template.html" />
         <option value="$PROJECT_DIR$/portfolio_html/GENE121.html" />
-        <option value="$PROJECT_DIR$/portfolio_html/sandwhich_maker.html" />
-        <option value="$PROJECT_DIR$/portfolio_html/Tron_days.html" />
         <option value="$PROJECT_DIR$/resume/3.0.html" />
-        <option value="$PROJECT_DIR$/portfolio_html/robotics.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/portfolio_html/facial_recognition.html" />
         <option value="$PROJECT_DIR$/portfolio_html/0.template.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/portfolio_html/e_commerce_website.html" />
+        <option value="$PROJECT_DIR$/portfolio_html/robotics.html" />
+        <option value="$PROJECT_DIR$/portfolio_html/facial_recognition.html" />
+        <option value="$PROJECT_DIR$/portfolio_html/sandwhich_maker.html" />
+        <option value="$PROJECT_DIR$/portfolio_html/Tron_days.html" />
       </list>
     </option>
   </component>
@@ -157,8 +189,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,6 +231,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -658,12 +690,13 @@
       <workItem from="1494969089870" duration="200000" />
       <workItem from="1495043469981" duration="1058000" />
       <workItem from="1495080988845" duration="899000" />
-      <workItem from="1495160854213" duration="3025000" />
+      <workItem from="1495160854213" duration="3412000" />
+      <workItem from="1495562777391" duration="3861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40379000" />
+    <option name="totallyTimeSpent" value="44627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2584" height="1412" extended-state="6" />
@@ -978,20 +1011,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio_html/GENE121.html" />
-    <entry file="file://$PROJECT_DIR$/portfolio_html/sandwhich_maker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="499" column="7" lean-forward="false" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio_html/Tron_days.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="499" column="7" lean-forward="false" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio_html/template.html" />
     <entry file="file://$PROJECT_DIR$/resume/3.0.html" />
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -1015,58 +1034,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio_html/robotics.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="499" column="7" lean-forward="false" selection-start-line="499" selection-start-column="7" selection-end-line="499" selection-end-column="7" />
+        <state relative-caret-position="870">
+          <caret line="125" column="52" lean-forward="true" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio_html/0.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="160" column="89" lean-forward="false" selection-start-line="156" selection-start-column="16" selection-end-line="160" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="1665" column="1" lean-forward="true" selection-start-line="1665" selection-start-column="1" selection-end-line="1665" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4321">
-          <caret line="514" column="46" lean-forward="true" selection-start-line="491" selection-start-column="16" selection-end-line="514" selection-end-column="46" />
+        <state relative-caret-position="824">
+          <caret line="1746" column="24" lean-forward="false" selection-start-line="1746" selection-start-column="24" selection-end-line="1746" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio_html/e_commerce_website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="173" column="16" lean-forward="true" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
+        <state relative-caret-position="406">
+          <caret line="108" column="46" lean-forward="false" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
           <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495339760281" expanded="true" signature="3148:4258" ph="..." />
+            <marker date="1495568016560" expanded="true" signature="3148:4105" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio_html/0.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="99" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="284" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio_html/robotics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio_html/facial_recognition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="94" column="73" lean-forward="false" selection-start-line="94" selection-start-column="73" selection-end-line="94" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1083">
+          <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio_html/sandwhich_maker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio_html/Tron_days.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="284" column="7" lean-forward="false" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
