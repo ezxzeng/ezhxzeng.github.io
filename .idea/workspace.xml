@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4c32ad-3ba0-4379-acb3-c4fc09a0baca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio_html/web_crawler.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio_html/e_commerce_website.html" afterPath="$PROJECT_DIR$/portfolio_html/e_commerce_website.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -66,11 +63,11 @@
       <file leaf-file-name="e_commerce_website.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio_html/e_commerce_website.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="191" column="74" lean-forward="false" selection-start-line="191" selection-start-column="74" selection-end-line="191" selection-end-column="74" />
+            <state relative-caret-position="3770">
+              <caret line="130" column="107" lean-forward="false" selection-start-line="130" selection-start-column="107" selection-end-line="130" selection-end-column="107" />
               <folding>
                 <element signature="n#code#0;n#p#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1495573715766" expanded="true" signature="3148:4105" ph="..." />
+                <marker date="1495574090825" expanded="true" signature="3148:4105" ph="..." />
               </folding>
             </state>
           </provider>
@@ -688,12 +685,12 @@
       <workItem from="1495043469981" duration="1058000" />
       <workItem from="1495080988845" duration="899000" />
       <workItem from="1495160854213" duration="3412000" />
-      <workItem from="1495562777391" duration="8933000" />
+      <workItem from="1495562777391" duration="9376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49699000" />
+    <option name="totallyTimeSpent" value="50142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2584" height="1412" extended-state="6" />
@@ -1090,11 +1087,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio_html/e_commerce_website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="191" column="74" lean-forward="false" selection-start-line="191" selection-start-column="74" selection-end-line="191" selection-end-column="74" />
+        <state relative-caret-position="3770">
+          <caret line="130" column="107" lean-forward="false" selection-start-line="130" selection-start-column="107" selection-end-line="130" selection-end-column="107" />
           <folding>
             <element signature="n#code#0;n#p#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1495573715766" expanded="true" signature="3148:4105" ph="..." />
+            <marker date="1495574090825" expanded="true" signature="3148:4105" ph="..." />
           </folding>
         </state>
       </provider>
