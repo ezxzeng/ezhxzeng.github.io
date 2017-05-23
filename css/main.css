@@ -122,7 +122,7 @@ body {
  * ------------------------------------------------------------------- */
 a,
 a:visited {
-    color: #7c3b08;
+    color: #b1540a;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -300,10 +300,11 @@ code {
     font-size: 1.4rem;
     margin: 0 .2rem;
     padding: .3rem .6rem;
-    white-space: nowrap;
+    white-space: pre-wrap;
     background: #F1F1F1;
     border: 1px solid #E1E1E1;
     border-radius: 3px;
+    display: inline-block;
 }
 
 pre > code {
