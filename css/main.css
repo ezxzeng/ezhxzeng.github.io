@@ -19,6 +19,7 @@
  *  11. skills
  *  12. credentials
  *  12.2 awards
+ *  12.3 projects
  *  13. portfolio
  *  14. stats
  *  15. contact
@@ -403,7 +404,7 @@ dd {
  * ------------------------------------------------------------------- */
 button,
 .button {
-    margin-bottom: 1.2;
+    margin-bottom: 1.2rem;
 }
 
 fieldset {
@@ -2591,7 +2592,7 @@ header .header-logo a {
 
 /* -------------------------------------------------------------------
  * responsive:
- * credentials
+ * awards
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
     #awards .left {
@@ -2641,6 +2642,153 @@ header .header-logo a {
     }
 
     #awards .timeline-block {
+        padding-left: 6rem;
+    }
+
+}
+
+/* ==================================================================
+ * 12.3 projects
+ * ------------------------------------------------------------------ */
+
+#projects {
+    background: #EBEBEB;
+    min-height: 800px;
+    position: relative;
+    padding: 12rem 0 15rem;
+}
+
+#projects .projects-content h2 {
+    margin-bottom: 4.8rem;
+    color: #4C2405;
+    padding-left: 8rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    position: relative;
+}
+
+#projects .projects-content h2::before {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 4rem;
+    background-color: #aeaeae;
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    margin-top: -3px;
+}
+
+#projects .left {
+    padding-right: 40px;
+}
+
+#projects .right {
+    padding-left: 40px;
+}
+
+#projects .timeline-wrap {
+    position: relative;
+    text-align: left;
+}
+
+#projects .timeline-wrap::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 2rem;
+    top: 0;
+}
+
+#projects .timeline-block {
+    position: relative;
+    padding-left: 8rem;
+    margin-bottom: 4.2rem;
+}
+
+#projects .timeline-ico {
+    height: 4.8rem;
+    width: 4.8rem;
+    line-height: 4.8rem;
+    background: #4C2405;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    margin-left: -2.4rem;
+}
+
+#projects .timeline-header .timeframe {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.6rem;
+    color: #757575;
+    margin-bottom: 0;
+}
+
+#projects .timeline-header h3 {
+    font-size: 2.4rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * projects
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+    #projects .left {
+        padding-right: 20px;
+    }
+
+    #projects .right {
+        padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #projects .projects-content h2 {
+        padding: 0;
+        text-align: center;
+    }
+
+    #projects .projects-content h2::before {
+        display: none;
+    }
+
+    #projects .left {
+        padding-right: 10px;
+    }
+
+    #projects .right {
+        padding-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #projects .timeline-block {
+        padding-left: 7rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    #projects .timeline-header .timeframe {
+        font-size: 1.5rem;
+    }
+
+    #projects .timeline-header h3 {
+        font-size: 2.2rem;
+    }
+
+    #projects .timeline-block {
         padding-left: 6rem;
     }
 
