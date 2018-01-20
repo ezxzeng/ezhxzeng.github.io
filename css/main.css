@@ -1340,6 +1340,10 @@ input::-moz-focus-inner {
     opacity: 1;
 }
 
+img.image-break {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 /* ===================================================================
  *  08. header styles - (_layout.scss)
  *
@@ -1656,7 +1660,7 @@ header .header-logo a {
     background: #151515;
     width: 100%;
     height: 100%;
-    background-image: url(../images/felix-russell-saw-103048.jpg);
+    background-image: url(https://i.imgur.com/Sgs6jMk.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -1669,7 +1673,7 @@ header .header-logo a {
     background: #151515;
     width: 100%;
     height: 35%;
-    background-image: url(../images/felix-russell-saw-103048.jpg);
+    background-image: url(https://i.imgur.com/Sgs6jMk.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -2020,7 +2024,7 @@ header .header-logo a {
     height: 100%;
     background: #EBEBEB;
     width: 50%;
-    background-image: url(../images/tobias-van-schneider-230172.jpg);
+    background-image: url(https://i.imgur.com/QqmNJsG.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -2239,7 +2243,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 #skills {
     background-color: #1f0e01;
-    background-image: url(../images/skills-bg.jpg);
+    background-image: url(https://i.imgur.com/X22hjdu.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -2976,7 +2980,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 #contact {
     background-color: #111111;
-    background-image: url(../images/profile-bg.jpg);
+    background-image: url(https://i.imgur.com/LWcMLov.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
