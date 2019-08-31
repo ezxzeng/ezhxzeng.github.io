@@ -1,6 +1,6 @@
 ---
 layout: home
-title: hello, world
+landing_title: hello, world
 description: I am Emily Zeng. <br> Mechatronics Engineering Student <br> University of Waterloo.
 landing_links: [
   {action: check out, name: This Link, link: https://www.google.com/},
