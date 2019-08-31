@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="gradient-overlay"></div>
+      <div class="landing-content">
+        <div class="wrapper">
+
+          {%- if page.title -%}
+            <h3>{{ page.title }}</h3>
+          {%- endif -%}
+          {%- if page.description -%}
+            <h1>{{ page.description }}</h1>
+          {%- endif -%}
+          {%- if page.landing_links.size > 0 -%}
+            <ul class="landing-section-links">
+              {%- for landing_link in page.landing_links -%}
+                <li>
+                  {{landing_link.action}}
+                  <a href="{{landing_link.link}}"> {{landing_link.name}} </a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        <div class="home">
+
+          {{ content }}
+
+          {%- if site.posts.size > 0 -%}
+            <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+            <ul class="post-list">
+              {%- for post in site.posts -%}
+              <li>
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <h3>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                {%- if site.show_excerpts -%}
+                  {{ post.excerpt }}
+                {%- endif -%}
+              </li>
+              {%- endfor -%}
+            </ul>
+
+            <p class="feed-subscribe">
+              <a href="{{ 'feed.xml' | relative_url }}">
+                <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+              </a>
+            </p>
+          {%- endif -%}
+
+        </div>
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

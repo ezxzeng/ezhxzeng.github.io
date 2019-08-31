@@ -1,0 +1,88 @@
+---
+---
+
+@import "minima";
+
+/* ======================================================================
+landing
+========================================================================= */
+.landing {
+  height: 100vh;
+  background-image: url(https://i.imgur.com/Sgs6jMk.jpg);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.landing .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+  background-color: #000000;
+}
+
+.landing .gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  background: -moz-linear-gradient(left, black 0%, black 20%, transparent 100%);
+  background: -webkit-linear-gradient(left, black 0%, black 20%, transparent 100%);
+  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000', GradientType=1);
+}
+
+.landing .landing-content {
+  position: absolute;
+  bottom: 0;
+  height: 60%;
+  width: 100%;
+}
+
+.landing-content h3 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size:1.5rem;
+    color: rgba(255, 255, 255, 0.35);
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    margin: 0 0 0 .3rem;
+}
+
+.landing-content h1 {
+    font-family: "librebaskerville-bold", serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.landing-content .landing-section-links {
+  margin: 4.8rem 0 0 0;
+}
+
+.landing-content .landing-section-links li{
+  display: inline-block;
+  font-family: "montserrat-bold", sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: rgba(255, 255, 255, 0.35);
+  margin-right: 1.5rem;
+  margin-bottom: .6rem;
+}
+
+.landing-content .landing-section-links a{
+  font-family: "librebaskerville-regular", serif;
+  font-size: 1.3rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  margin-left: .3rem;
+}
