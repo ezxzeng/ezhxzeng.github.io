@@ -86,3 +86,34 @@ landing
   color: #FFFFFF;
   margin-left: .3rem;
 }
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * landing page
+ * ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .landing-content h3 {
+        font-size: 3.125vw;
+    }
+
+    .landing-content h1 {
+        font-size: 6.25vw;
+    }
+
+    .landing-content .landing-section-links {
+        margin: 4.2rem 0 0 0;
+    }
+
+    .landing-content .landing-section-links li {
+        font-size: 1.667vw;
+    }
+
+    .landing-content .landing-section-links a {
+        font-size: 2.708vw;
+    }
+
+    .scroll-icon {
+        right: 15px;
+    }
+}
