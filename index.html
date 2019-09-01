@@ -1,38 +1,59 @@
 ---
 layout: home
 landing_title: hello, world
-description: I am Emily Zeng. <br> Mechatronics Engineering Student <br> University of Waterloo.
+description: >-
+   I am Emily Zeng.<br>
+   Mechatronics Engineering Student,<br>
+   University of Waterloo.<br>
 landing_links: [
   {action: check out, name: This Link, link: https://www.google.com/},
   {action: check out, name: This Link, link: https://www.google.com/}
 ]
 ---
-<div>
-  {% for work in site.work %}
-    {% if work.show_in_home %}
-      <div class="row">
-        <div class="col-6">
-          {{work.title}}
+<div class="row credentials">
+  <div class="row heading">
+    <h1> Work </h1>
+  </div>
+  <ul class="credentials-list">
+    {% for work in site.work %}
+      {% if work.show_in_home %}
+      <li>
+        <div class="row">
+          <div class="col-6">
+            <span class="post-meta">{{work.date_string}}</span>
+            <h2>{{work.title}}</h2>
+            <h3>{{work.job_title}}</h3>
+            {{work.content}}
+          </div>
+          <div class="col-6">
+            <img src="{{work.image_url}}">
+          </div>
         </div>
-        <div class="col-6">
-          <img src="{{work.image_url}}">
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
 
-<div>
-  {% for project in site.projects %}
-    {% if project.show_in_home %}
-      <div class="row">
-        <div class="col-6">
-          {{project.title}}
+<div class="row credentials">
+  <div class="row heading">
+    <h1> Projects </h1>
+  </div>
+  <ul class="credentials-list">
+    {% for project in site.projects %}
+      {% if project.show_in_home %}
+        <div class="row">
+          <div class="col-6">
+            <span class="post-meta">{{project.date | date: "%b %Y"}}</span>
+            <h2>{{project.title}}</h2>
+            <h3>{{project.project_subtitle}}</h3>
+            {{project.content}}
+          </div>
+          <div class="col-6">
+            <img src="{{project.image_url}}">
+          </div>
         </div>
-        <div class="col-6">
-          <img src="{{project.image_url}}">
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
