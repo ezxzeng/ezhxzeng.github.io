@@ -1,0 +1,38 @@
+---
+layout: home
+landing_title: hello, world
+description: I am Emily Zeng. <br> Mechatronics Engineering Student <br> University of Waterloo.
+landing_links: [
+  {action: check out, name: This Link, link: https://www.google.com/},
+  {action: check out, name: This Link, link: https://www.google.com/}
+]
+---
+<div>
+  {% for work in site.work %}
+    {% if work.show_in_home %}
+    <div>
+      <div>
+        {{work.title}}
+      </div>
+      <div>
+        <img src="{{work.image_url}}">
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div>
+  {% for project in site.projects %}
+    {% if project.show_in_home %}
+    <div>
+      <div>
+        {{project.title}}
+      </div>
+      <div>
+        <img src="{{project.image_url}}">
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>

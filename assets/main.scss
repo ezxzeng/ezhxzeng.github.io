@@ -47,7 +47,7 @@
 
 .landing-content h3 {
     font-family: "montserrat-bold", sans-serif;
-    font-size:1.5rem;
+    font-size:24px;
     color: rgba(255, 255, 255, 0.35);
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -56,7 +56,7 @@
 
 .landing-content h1 {
     font-family: "librebaskerville-bold", serif;
-    font-size: 3rem;
+    font-size: 48px;
     line-height: 1.5;
     font-weight: 500;
     color: #FFFFFF;
@@ -69,7 +69,7 @@
 .landing-content .landing-section-links li{
   display: inline-block;
   font-family: "montserrat-bold", sans-serif;
-  font-size: .8rem;
+  font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -80,7 +80,7 @@
 
 .landing-content .landing-section-links a{
   font-family: "librebaskerville-regular", serif;
-  font-size: 1.3rem;
+  font-size: 21px;
   text-transform: none;
   letter-spacing: 0;
   color: #FFFFFF;
@@ -105,11 +105,11 @@
     }
 
     .landing-content .landing-section-links li {
-        font-size: 1.667vw;
+        font-size: 1.75vw;
     }
 
     .landing-content .landing-section-links a {
-        font-size: 2.708vw;
+        font-size: 2.8vw;
     }
 
     .scroll-icon {
