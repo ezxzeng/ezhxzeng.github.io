@@ -10,14 +10,14 @@ landing_links: [
 <div>
   {% for work in site.work %}
     {% if work.show_in_home %}
-    <div>
-      <div>
-        {{work.title}}
+      <div class="row">
+        <div class="col-6">
+          {{work.title}}
+        </div>
+        <div class="col-6">
+          <img src="{{work.image_url}}">
+        </div>
       </div>
-      <div>
-        <img src="{{work.image_url}}">
-      </div>
-    </div>
     {% endif %}
   {% endfor %}
 </div>
@@ -25,14 +25,14 @@ landing_links: [
 <div>
   {% for project in site.projects %}
     {% if project.show_in_home %}
-    <div>
-      <div>
-        {{project.title}}
+      <div class="row">
+        <div class="col-6">
+          {{project.title}}
+        </div>
+        <div class="col-6">
+          <img src="{{project.image_url}}">
+        </div>
       </div>
-      <div>
-        <img src="{{project.image_url}}">
-      </div>
-    </div>
     {% endif %}
   {% endfor %}
 </div>
