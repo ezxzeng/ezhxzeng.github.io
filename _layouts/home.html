@@ -6,37 +6,27 @@
 
   <body>
 
-    <!-- landing section  -->
-    <div class="landing">
-      <div class="overlay"></div>
-      <div class="gradient-overlay"></div>
-      <div class="landing-content">
-        <div class="wrapper">
-          {%- if page.landing_title -%}
-            <h3>{{ page.landing_title }}</h3>
-          {%- endif -%}
-          {%- if page.description -%}
-            <h1>{{ page.description }}</h1>
-          {%- endif -%}
-          {%- if page.landing_links.size > 0 -%}
-            <ul class="landing-section-links">
-              {%- for landing_link in page.landing_links -%}
-                <li>
-                  {{landing_link.action}}
-                  <a href="{{landing_link.link}}"> {{landing_link.name}} </a>
-                </li>
-              {%- endfor -%}
-            </ul>
-          {%- endif -%}
-        </div>
-      </div>
-    </div>
+  {% include landing.html %}
 
     <main class="page-content" aria-label="Content">
+      <div class="">
+          <div class="wrapper">
+            <div class="home">
+              {% include display_projects.html %}
+            </div>
+          </div>
+      </div>
+      <div style="background: #f0f0f0">
+          <div class="wrapper">
+            <div class="home">
+              {% include display_work.html %}
+            </div>
+          </div>
+      </div>
+
       <div class="wrapper">
 
         <div class="home">
-
           {{ content }}
 
           {%- if site.posts.size > 0 -%}
