@@ -9,7 +9,7 @@ awards:
   - Best Education Hack
 image_url: https://i.imgur.com/ISN31R2.jpg
 show_in_home: True
-description: Translated photos of text into fill-in-the-blank questions for Alexa skill
+description: Parse photos of text into fill-in-the-blank questions for Alexa skill
 links:
   - {name: Devpost, url: https://devpost.com/software/quiz-it}
 ---
