@@ -1,0 +1,19 @@
+---
+---
+
+@import "minima";
+@import "simple-grid";
+@import "landing";
+@import "credentials";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link-list li {
+  display: inline-block;
+
+  &:not(:last-child):after {
+   content: ' | ';
+ }
+}
