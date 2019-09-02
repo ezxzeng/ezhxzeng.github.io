@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
    I am Emily Zeng.
    Mechatronics Engineering Student,
    University of Waterloo.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "ezxzeng" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ezhxzeng
 linkedin_username: ezhxzeng
