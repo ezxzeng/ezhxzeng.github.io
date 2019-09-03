@@ -8,4 +8,6 @@ show_in_home: False
 description: designed and built robotics for the FIRST robotics competition as a high school student
 links:
   - {name: Organization Website, url: https://www.firstinspires.org/}
+
+number: 1
 ---

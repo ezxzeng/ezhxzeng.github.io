@@ -6,6 +6,8 @@ job_title: associate UX architect
 image_url: https://i.imgur.com/53v2xoC.png
 show_in_home: False
 description: critiqued and presented suggested improvements for client's help pages on their websites.
-links: 
+links:
   - {name: Company Website, url: https://www.criticalmass.com/}
+
+number: 0
 ---

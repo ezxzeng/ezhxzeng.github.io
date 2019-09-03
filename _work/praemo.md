@@ -8,4 +8,6 @@ show_in_home: True
 description: Built a neural network library to predict machine failure over time in industrial robots
 links:
   - {name: Company Website, url: https://praemo.com/}
+
+number: 4
 ---

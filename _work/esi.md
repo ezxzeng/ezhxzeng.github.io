@@ -8,4 +8,6 @@ show_in_home: True
 description: Solved robotic navigation problem using reinforcement learning (Q-learning)
 links:
   - {name: Company Website, url: http://www.esit.com/}
+
+number: 3
 ---

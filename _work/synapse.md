@@ -8,4 +8,6 @@ show_in_home: True
 description: Developed and analyzed CNN models for detecting threats from x-ray scans
 links:
   - {name: Company Website, url: https://www.synapsetechnology.com/}
+
+number: 5
 ---

@@ -3,7 +3,8 @@
     <h1> Work </h1>
   </div>
   <ul class="credentials-list">
-    {% for work in site.work %}
+    {% assign ordered_work = (site.work | sort:"number") %}
+    {% for work in ordered_work reversed %}
       {% if work.show_in_home%}
       <li>
         <div class="row">
