@@ -57,7 +57,7 @@ collections:
 
 header_pages:
 - projects.html
-- work.md
+- work.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
