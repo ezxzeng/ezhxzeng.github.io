@@ -40,6 +40,8 @@ collections:
   projects:
     order:
       - quizit.md
+      - um_detector.md
+      - simple_yogi.md
       - noter.md
       - troll_index.md
       - sandwich_maker.md

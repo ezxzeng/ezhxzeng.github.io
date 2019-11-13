@@ -6,7 +6,7 @@ competition: EngHack
 awards:
   - Hack Harassment
 image_url: https://i.imgur.com/9R9CoEH.png
-show_in_home: True
+show_in_home: False
 links:
   - {name: Devpost, url: https://devpost.com/software/enghack2017}
   - {name: Github, url: https://github.com/ychenz/enghack2017}
