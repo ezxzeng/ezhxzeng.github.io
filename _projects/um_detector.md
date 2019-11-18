@@ -7,7 +7,6 @@ image_url: https://challengepost-s3-challengepost.netdna-ssl.com/photos/producti
 show_in_home: True
 description: Audio classifier for conversational filler words (ie "um")
 links:
-  - {name: Devpost, url: https://devpost.com/software/um-detector}
-
+  - {name: Github, url: https://github.com/ezhxzeng/um_detector}
 number: 4
 ---
