@@ -9,5 +9,5 @@ description: Developed and analyzed CNN models for detecting threats from x-ray 
 links:
   - {name: Company Website, url: https://www.synapsetechnology.com/}
 
-number: 5
+number: 4
 ---

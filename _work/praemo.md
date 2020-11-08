@@ -9,5 +9,5 @@ description: Built a neural network library to predict machine failure over time
 links:
   - {name: Company Website, url: https://praemo.com/}
 
-number: 4
+number: 3
 ---

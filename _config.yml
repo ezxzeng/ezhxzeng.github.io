@@ -38,6 +38,7 @@ plugins:
 
 collections:
   projects:
+    output: True
     order:
       - quizit.md
       - um_detector.md
@@ -47,7 +48,10 @@ collections:
       - sandwich_maker.md
       - wec.md
   work:
+    output: True
     order:
+      - nvidia.md
+      - miovision.md
       - synapse.md
       - praemo.md
       - esi.md

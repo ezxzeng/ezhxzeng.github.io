@@ -9,5 +9,5 @@ description: Solved robotic navigation problem using reinforcement learning (Q-l
 links:
   - {name: Company Website, url: http://www.esit.com/}
 
-number: 3
+number: 2
 ---

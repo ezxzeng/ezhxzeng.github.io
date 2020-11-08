@@ -8,6 +8,9 @@ show_in_home: True
 description: Automating data ingest for maximum training improvement
 links:
   - {name: Company Website, url: https://miovision.com/}
+  - {name: details, url: /work/miovision}
 
 number: 5
 ---
+
+test
