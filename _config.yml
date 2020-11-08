@@ -39,25 +39,8 @@ plugins:
 collections:
   projects:
     output: True
-    order:
-      - quizit.md
-      - um_detector.md
-      - simple_yogi.md
-      - noter.md
-      - troll_index.md
-      - sandwich_maker.md
-      - wec.md
   work:
     output: True
-    order:
-      - nvidia.md
-      - miovision.md
-      - synapse.md
-      - praemo.md
-      - esi.md
-      - stackup.md
-      - first_robotics.md
-      - critical_mass.md
 
 header_pages:
 - projects.html
