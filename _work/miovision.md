@@ -12,5 +12,3 @@ links:
 
 number: 5
 ---
-
-test
