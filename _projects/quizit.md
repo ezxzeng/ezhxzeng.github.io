@@ -7,7 +7,7 @@ awards:
   - 2nd place overall
   - winner of Google API prize
   - Best Education Hack
-image_url: https://i.imgur.com/ISN31R2.jpg
+image_url: /assets/images/quizit.jpg
 show_in_home: True
 description: Parse photos of text into fill-in-the-blank questions for Alexa skill
 links:

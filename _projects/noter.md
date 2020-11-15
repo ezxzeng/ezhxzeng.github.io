@@ -3,7 +3,7 @@ layout: project
 date: 2017-10-22
 title: Noter
 competition: Hack Harvard
-image_url: https://i.imgur.com/PzZQR0H.png
+image_url: /assets/images/hack_harvard.png
 show_in_home: False
 description: Parse video lectures into text segments with contextual figures for study notes
 links:

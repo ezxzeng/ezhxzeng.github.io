@@ -3,7 +3,7 @@ layout: project
 date: 2019-11-08
 title: Simple Yogi
 competition: Hack Princeton
-image_url: https://i.imgur.com/nwogNWB.png
+image_url: /assets/images/simple_yogi.png
 show_in_home: True
 description: Yoga pose correction and classification with Posenet
 links:

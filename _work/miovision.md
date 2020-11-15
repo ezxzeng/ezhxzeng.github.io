@@ -3,7 +3,7 @@ layout: work_experience
 date_string: Sept-Dec 2019
 title: Miovision
 job_title: Computer Vision Engineer
-image_url: https://i.imgur.com/eGvLnTJ.jpg
+image_url: /assets/images/miovision.jpg
 show_in_home: True
 description: Automating data ingest for maximum training improvement
 links:
