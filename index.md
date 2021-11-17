@@ -2,8 +2,8 @@
 layout: home
 landing_title: hello, world
 description: >-
-   I am Emily Zeng.<br>
-   Mechatronics Engineering Student,<br>
+   I am Emily Zhixuan Zeng.<br>
+   MASc student focusing on Machine Learning and Computer Vision,<br>
    University of Waterloo.<br>
 landing_links:
   - {action: contact, name: By Email, link: mailto:zhixuan.zeng@gmail.com}
