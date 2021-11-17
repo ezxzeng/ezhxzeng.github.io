@@ -21,9 +21,9 @@
 title: Emily ZhiXuan Zeng
 email: zhixuan.zeng@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-   I am Emily Zeng.
-   Mechatronics Engineering Student,
-   University of Waterloo.
+   I am Emily Zhixuan Zeng.<br>
+   MASc student focusing on Machine Learning and Computer Vision,<br>
+   University of Waterloo.<br>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ezhxzeng
