@@ -66,5 +66,7 @@ header_pages:
 #   - vendor/gems/
 #   - vendor/ruby/
 include:
+  - _includes/
+  - _layouts
   - _projects/
   - _work
