@@ -4,7 +4,7 @@ date: 2019-11-08
 title: Simple Yogi
 competition: Hack Princeton
 image_url: /assets/images/simple_yogi.png
-show_in_home: True
+show_in_home: False
 description: Yoga pose correction and classification with Posenet
 links:
   - {name: Devpost, url: https://devpost.com/software/simpleyogi}
