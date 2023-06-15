@@ -8,10 +8,11 @@ awards:
   - winner of Google API prize
   - Best Education Hack
 image_url: /assets/images/quizit.jpg
-show_in_home: True
-description: Parse photos of text into fill-in-the-blank questions for Alexa skill
+show_in_home: False
 links:
   - {name: Devpost, url: https://devpost.com/software/quiz-it}
 
 number: 6
 ---
+
+Parse photos of text into fill-in-the-blank questions for Alexa skill

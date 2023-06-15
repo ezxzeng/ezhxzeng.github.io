@@ -5,7 +5,7 @@
   <ul class="credentials-list">
     {% assign ordered_projects = (site.projects | sort:"number") %}
     {% for project in ordered_projects reversed %}
-      {% if project.show_in_home %}
+      {% if project.show_in_home or include.show_all %}
         <div class="row">
           <div class="col-6">
             <span class="post-meta">{{project.date | date: "%b %Y"}}</span>
@@ -19,7 +19,7 @@
                 <h3 style="display: inline">{{project.competition}}</h3>
             </div>
             <br>
-            <h4>{{project.description}}</h4>
+            <h4>{{project.content}}</h4>
               <br>
               <ul class="link-list">
                 {% for link in project.links %}
@@ -28,7 +28,7 @@
               </ul>
           </div>
           <div class="col-6">
-            <img src="{{project.image_url}}">
+            <img src="{{project.image_url}}" crossorigin="anonymous"/>
           </div>
         </div>
         <br>

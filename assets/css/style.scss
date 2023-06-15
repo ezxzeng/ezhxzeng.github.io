@@ -15,6 +15,6 @@ html {
   display: inline-block;
 
   &:not(:last-child):after {
-   content: ' | ';
+   content: ' ';
  }
 }

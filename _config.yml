@@ -31,10 +31,17 @@ linkedin_username: ezhxzeng
 
 google_analytics: UA-126550910-1
 
+# bibliography settings
+scholar:
+  # style: ieee
+  order: descending #  ascending
+  sort_by: year, month
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-scholar
 
 collections:
   projects:
@@ -45,6 +52,7 @@ collections:
 header_pages:
 - projects.html
 - work.html
+- publications.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
