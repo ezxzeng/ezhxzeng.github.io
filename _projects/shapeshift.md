@@ -17,4 +17,6 @@ number: 10
 <a class="button button-light" href="https://openjournals.uwaterloo.ca/index.php/vsl/article/view/5382/5670">Keypoints (prior work)</a>
 </li></ul>
 
+Shapeshift: Superquadric-based Object Pose Estimation for Robotic Grasping
+
 <sub><sup>{% reference zeng2023shapeshift %}</sup></sub>
