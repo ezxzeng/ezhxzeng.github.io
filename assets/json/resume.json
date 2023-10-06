@@ -118,50 +118,7 @@
       "summary": ""
     }
   ],
-  "skills": [
-    {
-      "name": "Python"
-    },
-    {
-      "name": "C++"
-    },
-    {
-      "name": "Pytorch"
-    },
-    {
-      "name": "Keras/Tensorflow"
-    },
-    {
-      "name": "Scikit-learn"
-    },
-    {
-      "name": "Docker"
-    },
-    {
-      "name": "Computer Vision"
-    },
-    {
-      "name": "Object Detection"
-    },
-    {
-      "name": "Image Segmentation"
-    },
-    {
-      "name": "Pose Detection"
-    },
-    {
-      "name": "Explainable AI"
-    },
-    {
-      "name": "Reinforcement Learning"
-    },
-    {
-      "name": "Text to speech"
-    },
-    {
-      "name": "General Machine Learning"
-    }
-  ],
+  "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
