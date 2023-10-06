@@ -1,0 +1,177 @@
+{
+  "basics": {
+    "name": "Emily Zhixuan Zeng",
+    "email": "ezzeng@uwaterloo.ca",
+    "url": "https://www.ezxzeng.com"
+  },
+  "work": [
+    {
+      "name": "NVIDIA",
+      "position": "Computer Vision Intern",
+      "url": "",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "Incorporated synthetic data for training lane detection model.",
+      "highlights": []
+    },
+    {
+      "name": "NVIDIA",
+      "position": "Computer Vision Intern",
+      "url": "",
+      "startDate": "2020",
+      "endDate": "2020",
+      "summary": "Time series light signal detection for autonomous vehicles.",
+      "highlights": []
+    },
+    {
+      "name": "MIOVISION",
+      "position": "Computer Vision Intern",
+      "url": "",
+      "startDate": "2019",
+      "endDate": "2019",
+      "summary": "Traffic data analysis with computer vision.",
+      "highlights": []
+    },
+    {
+      "name": "SYNAPSE TECHNOLOGY",
+      "position": "Computer Vision Intern",
+      "url": "",
+      "startDate": "2019",
+      "endDate": "2019",
+      "summary": "Developed and analyzed CNN models for detecting threats in security x-ray scans.",
+      "highlights": []
+    },
+    {
+      "name": "PRAEMO",
+      "position": "Data Scientist",
+      "url": "",
+      "startDate": "2018",
+      "endDate": "2018",
+      "summary": "Used LSTM to detect anomalies in time series vibration data and predict machine failure in industrial robots.",
+      "highlights": []
+    },
+    {
+      "name": "ESI",
+      "position": "Robotics Software Developer",
+      "url": "",
+      "startDate": "2017",
+      "endDate": "2017",
+      "summary": "Robotic navigation using reinforcement learning (Deep Q-learning) and IR sensors.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "UNIVERSITY OF WATERLOO",
+      "url": "",
+      "area": "Vision and Image Processing Lab",
+      "studyType": "MASc",
+      "startDate": "2021",
+      "endDate": "2023",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "UNIVERSITY OF WATERLOO",
+      "url": "",
+      "area": "Mechatronics Engineering",
+      "studyType": "BASc",
+      "startDate": "2016",
+      "endDate": "2021",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Finalist at 2022 IEEE International Conference on Automation Science and Engineering",
+      "date": "2022",
+      "awarder": "IEEE",
+      "summary": ""
+    }
+  ],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "ShapeShift: Superquadric-based Object Pose Estimation for Robotic Grasping",
+      "releaseDate": "2023",
+      "publisher": "CVPR 2023. WICV workshop",
+      "summary": ""
+    },
+    {
+      "name": "Explaining Explainability: Towards Deeper Actionable Insights into Deep Learning through Second-order Explainability",
+      "releaseDate": "2023",
+      "awarder": "CVPR 2023. XAI4CV workshop",
+      "summary": ""
+    },
+    {
+      "name": "MetaGraspNet: A Large-Scale Benchmark Dataset for Vision-driven Robotic Grasping via Physics-based Metaverse Synthesis",
+      "releaseDate": "2022",
+      "publisher": "2022 IEEE International Conference on Automation Science and Engineering",
+      "summary": ""
+    },
+    {
+      "name": "COVID-Net US-X: Enhanced Deep Neural Network for Detection of COVID-19 Patient Cases from Convex Ultrasound Imaging Through Extended Linear-Convex Ultrasound Augmentation Learning",
+      "releaseDate": "2022",
+      "publisher": "CVPR 2022. WICV workshop",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python"
+    },
+    {
+      "name": "C++"
+    },
+    {
+      "name": "Pytorch"
+    },
+    {
+      "name": "Keras/Tensorflow"
+    },
+    {
+      "name": "Scikit-learn"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Computer Vision"
+    },
+    {
+      "name": "Object Detection"
+    },
+    {
+      "name": "Image Segmentation"
+    },
+    {
+      "name": "Pose Detection"
+    },
+    {
+      "name": "Explainable AI"
+    },
+    {
+      "name": "Reinforcement Learning"
+    },
+    {
+      "name": "Text to speech"
+    },
+    {
+      "name": "General Machine Learning"
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "AUTOREAD",
+      "description": "Text to speech model for fiction novels trained using automatically labeled audiobook dataset.",
+      "startDate": "2021",
+      "endDate": "2021",
+      "url": ""
+    }
+  ]
+}

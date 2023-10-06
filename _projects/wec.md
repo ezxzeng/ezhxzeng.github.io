@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 date: 2017-05-13
 competition: Waterloo Engineering Competition
 awards:

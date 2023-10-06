@@ -1,22 +1,13 @@
 ---
-layout: project
+layout: page
 date: 2023-06-19
-title: Object Pose
-image_url: /assets/images/shapeshift.jpg
-show_in_home: True
+title: Shapeshift
+img: /assets/img/publication_preview/shapeshift.jpg
 links:
   # - {name: Keypoints (prior work), url: https://openjournals.uwaterloo.ca/index.php/vsl/article/view/5382/5670}
   - {name: Superquadrics, url: https://arxiv.org/abs/2304.04861}
-
-number: 10
+category: publications
+importance: 10
+related_publications: zeng2022keypoints, zeng2023shapeshift
+description: Object pose estimation via superquadrics
 ---
-
-<sub><sup>{% reference zeng2022keypoints %}</sup></sub>
-
-<ul class="link-list"><li>
-<a class="button button-light" href="https://openjournals.uwaterloo.ca/index.php/vsl/article/view/5382/5670">Keypoints (prior work)</a>
-</li></ul>
-
-Shapeshift: Superquadric-based Object Pose Estimation for Robotic Grasping
-
-<sub><sup>{% reference zeng2023shapeshift %}</sup></sub>

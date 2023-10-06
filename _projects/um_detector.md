@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 date: 2019-09-13
 title: um detector
 competition: Hack the North
@@ -8,6 +8,7 @@ show_in_home: False
 links:
   - {name: Github, url: https://github.com/ezhxzeng/um_detector}
 number: 4
+category: hackathon
+description: Audio classifier for conversational filler words (ie "um")
 ---
 
-Audio classifier for conversational filler words (ie "um")
