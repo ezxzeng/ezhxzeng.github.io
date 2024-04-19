@@ -9,63 +9,71 @@ display_categories: all
 horizontal: false
 min_importance: 5
 ---
+
 <!-- pages/projects.md -->
 <div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
+{% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% if page.display_categories == "all" %}
     {% assign display_categories = site.projects | sort: "importance" | map: "category" | compact | uniq %}
   {% else %}
     {% assign display_categories = page.display_categories %}
   {% endif %}
-  {%- for category in display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% for category in display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+  {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {% for project in sorted_projects %}
       {% if project.importance < page.min_importance %}
-      {% include projects_horizontal.html %}
+      {% include projects_horizontal.liquid %}
       {% endif %}
-    {%- endfor %}
+    {% endfor %}
     </div>
   </div>
-  {%- else -%}
+  {% else %}
   <div class="grid">
-    {%- for project in sorted_projects -%}
+    {% for project in sorted_projects %}
       {% if project.importance < page.min_importance %}
-      {% include projects.html %}
+      {% include projects.liquid %}
       {% endif %}
-    {%- endfor %}
+    {% endfor %}
   </div>
-  {%- endif -%}
+  {% endif %}
   {% endfor %}
 
-{%- else -%}
+{% else %}
+
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {% for project in sorted_projects %}
       {% if project.importance < page.min_importance %}
-      {% include projects_horizontal.html %}
+      {% include projects_horizontal.liquid %}
       {% endif %}
-    {%- endfor %}
+    {% endfor %}
     </div>
   </div>
-  {%- else -%}
+  {% else %}
   <div class="grid">
-    {%- for project in sorted_projects -%}
+    {% for project in sorted_projects %}
       {% if project.importance < page.min_importance %}
-      {% include projects.html %}
+      {% include projects.liquid %}
       {% endif %}
-    {%- endfor %}
+    {% endfor %}
   </div>
-  {%- endif -%}
-{%- endif -%}
+  {% endif %}
+{% endif %}
 </div>
