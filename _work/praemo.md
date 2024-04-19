@@ -11,6 +11,6 @@ links:
   - {name: About Company, url: https://www.linkedin.com/company/praemo}
 category: work
 number: 3
+description: >
+  Built a neural network library to predict machine failure over time in industrial robots
 ---
-
-Built a neural network library to predict machine failure over time in industrial robots

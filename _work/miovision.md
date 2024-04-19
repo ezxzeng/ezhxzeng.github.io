@@ -12,6 +12,7 @@ links:
 
 category: work
 number: 5
+description: >
+  Automating data ingest for maximum training improvement
 ---
 
-Automating data ingest for maximum training improvement

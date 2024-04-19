@@ -7,7 +7,7 @@ image_url: /assets/images/simple_yogi.png
 selected: False
 links:
   - {name: Devpost, url: https://devpost.com/software/simpleyogi}
-number: 5
+importance: 4
 description: Yoga pose correction and classification with Posenet
 category: hackathon
 ---

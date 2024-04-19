@@ -10,6 +10,7 @@ links:
   - {name: About Company, url: https://www.linkedin.com/company/synapse-technology-corporation/about/}
 category: work
 number: 4
+description: >
+  Developed and analyzed CNN models for detecting threats from x-ray scans
 ---
 
-Developed and analyzed CNN models for detecting threats from x-ray scans

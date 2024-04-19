@@ -1,7 +1,10 @@
-{% if include.category %}
-  {%- assign projects = site.projects | where: "category", include.category -%}
+{% if include.work %}
+  {% assign projects = site.work %}
 {% else %}
-  {%- assign projects = site.projects -%}
+  {% assign projects = site.projects %}
+{% endif %}
+{% if include.category %}
+  {% assign projects = projects | where: "category", include.category %}
 {% endif %}
 {% if include.selected_only %}
   {%- assign projects = projects | where: "selected", true -%}
@@ -49,6 +52,8 @@
           </div>
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
+          <!-- Description -->
+          <div class="description">{{entry.description | markdownify}}</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -63,7 +68,7 @@
 
           <!-- Publications -->
           <div class="related_publications hidden">
-            {% bibliography -f {{ site.scholar.bibliography }} --group_by none -q @*[key^={{ entry.related_publications }}]* %}
+            {% bibliography -f {{ site.scholar.bibliography }} --query @*[key^={{ entry.related_publications }}]*  %}
           </div>
       </div>
     </li>

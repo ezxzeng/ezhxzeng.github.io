@@ -10,6 +10,6 @@ links:
 category: work
 preview: assets/img/Nvidia_logo.png
 number: 7
+description: >
+  Incorporated synthetic data for training lane detection model to target challenging scenarios
 ---
-
-Incorporated synthetic data for training lane detection model to target challenging scenarios

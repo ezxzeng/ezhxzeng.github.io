@@ -11,6 +11,6 @@ links:
 category: work
 preview: assets/img/Nvidia_logo.png
 number: 6
+description: >
+  Time series light signal detection for autonomous vehicles
 ---
-
-Time series light signal detection for autonomous vehicles

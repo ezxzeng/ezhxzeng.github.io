@@ -7,14 +7,14 @@ nav: true
 nav_order: 2
 display_categories: all
 horizontal: false
+min_importance: 5
 ---
-
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% if page.display_categories == "all" %}
-    {% assign display_categories = site.projects | map: "category" | compact | uniq %}
+    {% assign display_categories = site.projects | sort: "importance" | map: "category" | compact | uniq %}
   {% else %}
     {% assign display_categories = page.display_categories %}
   {% endif %}
@@ -27,14 +27,18 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
+      {% if project.importance < page.min_importance %}
       {% include projects_horizontal.html %}
+      {% endif %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
+      {% if project.importance < page.min_importance %}
       {% include projects.html %}
+      {% endif %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -48,14 +52,18 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
+      {% if project.importance < page.min_importance %}
       {% include projects_horizontal.html %}
+      {% endif %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
+      {% if project.importance < page.min_importance %}
       {% include projects.html %}
+      {% endif %}
     {%- endfor %}
   </div>
   {%- endif -%}

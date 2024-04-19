@@ -10,6 +10,6 @@ links:
   - {name: About Company, url: https://www.linkedin.com/company/esi-toronto}
 category: work
 number: 2
+description: >
+  Solved robotic navigation problem using reinforcement learning (Q-learning)
 ---
-
-Solved robotic navigation problem using reinforcement learning (Q-learning)

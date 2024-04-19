@@ -6,6 +6,6 @@ awards:
   - First place in Junior Design
 image_url: /assets/images/wec.jpg
 selected: False
-number: 0
+importance: 6
 category: hackathon
 ---
