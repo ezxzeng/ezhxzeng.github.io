@@ -29,18 +29,17 @@
           {%- assign img_path = nil -%}
         {% endif %}
 
-        {%- if img_path -%}
-          {% if img_path contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ img_path }}">
-          {%- else -%}
-            {%- assign entry_path = img_path -%}
-            {% include figure.html
-            path=entry_path
+        {% if img_path %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=img_path
+            sizes = "200px"
             class="preview z-depth-1 rounded"
-            zoomable=false
-            alt=img_path -%}
-          {%- endif -%}
-        {%- endif -%}
+            zoomable=true
+            alt=img_path
+          %}
+        {% endif %}
         </div>
 
         <!-- Entry bib key -->

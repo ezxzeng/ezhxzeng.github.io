@@ -1,5 +1,5 @@
 ---
-layout: work_experience
+layout: page
 date_string: May-August 2020
 date: 2020-05-01
 title: NVIDIA - Autonomous vehicle

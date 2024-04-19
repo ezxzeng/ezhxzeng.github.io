@@ -1,5 +1,5 @@
 ---
-layout: work_experience
+layout: page
 date_string: April-August 2018
 date: 2018-04-01
 title: Praemo Inc
