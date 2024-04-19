@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 1
 cv_pdf: resume.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+description: PhD student focusing on Machine Learning and Computer Vision, University of Waterloo.
 toc:
   sidebar: left
 ---

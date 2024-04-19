@@ -3,7 +3,7 @@ layout: page
 date: 2023-06-19
 title: Second order XAI
 img: https://i.imgur.com/4sfJMv9.png
-show_in_home: True
+selected: True
 related_publications: zeng2023explaining_xai
 importance: 1
 category: publications

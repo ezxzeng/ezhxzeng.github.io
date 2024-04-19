@@ -5,6 +5,7 @@ competition: Waterloo Engineering Competition
 awards:
   - First place in Junior Design
 image_url: /assets/images/wec.jpg
-show_in_home: False
+selected: False
 number: 0
+category: hackathon
 ---

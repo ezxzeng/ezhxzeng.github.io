@@ -1,0 +1,64 @@
+{% if include.category %}
+  {%- assign work = site.work | where: "category", include.category -%}
+{% else %}
+  {%- assign work = site.work -%}
+{% endif %}
+{% if include.selected_only %}
+  {%- assign work = work | where: "selected", true -%}
+{% endif %}
+{% if include.sort_importance %}
+  {%- assign sorted_work = work | sort: "importance" %}
+{% else %}
+  {%- assign sorted_work = work | sort: 'date' | reverse %}
+{% endif %}
+
+<div class="projects-list">
+  <ol class="bibliography">
+    {%- for entry in sorted_work -%}
+    <li>
+      <div class="row">
+        <div class="col-sm-2 preview">
+        {%- if entry.preview -%}
+          {%- assign img_path = entry.preview -%}
+        {%  elsif entry.img %}
+          {%- assign img_path = entry.img -%}
+        {% else %}
+          {%- assign img_path = nil -%}
+        {% endif %}
+
+        {%- if img_path -%}
+          {% if img_path contains '://' -%}
+          <img class="preview z-depth-1 rounded" src="{{ img_path }}">
+          {%- else -%}
+            {%- assign entry_path = img_path -%}
+            {% include figure.html
+            path=entry_path
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=img_path -%}
+          {%- endif -%}
+        {%- endif -%}
+        </div>
+
+        <!-- Entry bib key -->
+        {% assign entry_id=entry.name | remove: ".md" | remove: ".html" %}
+        <div id="{{ entry_id }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+        
+          <div class="date_string">
+            <em>{{entry.date_string}}</em>
+          </div>
+          <!-- Title -->
+          <div class="title">{{entry.title}}</div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            {% for link in entry.links %}
+            <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button">{{ link.name }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</div>

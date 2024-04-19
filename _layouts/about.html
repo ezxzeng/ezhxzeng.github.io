@@ -55,8 +55,20 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;"><Param></Param>Publications</a></h2>
             {%- include selected_papers.html %}
+          {%- endif %}
+
+          <!-- Selected work experience-->
+          {% if page.work -%}
+            <h2><a href="{{ '/work/' | relative_url }}" style="color: inherit;">Work experience</a></h2>
+            {%- include work_list.html selected_only=true %}
+          {%- endif %}
+
+          <!-- Selected projects -->
+          {% if page.work -%}
+            <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">Projects</a></h2>
+            {%- include projects_list.html selected_only=true %}
           {%- endif %}
 
           <!-- Social -->

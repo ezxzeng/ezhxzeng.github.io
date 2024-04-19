@@ -169,6 +169,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  work:
+    output: false
 
 announcements:
   enabled: true

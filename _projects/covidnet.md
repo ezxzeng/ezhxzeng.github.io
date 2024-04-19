@@ -3,7 +3,7 @@ layout: page
 date: 2022-04-01
 title: COVID-Net US-X
 img: /assets/img/publication_preview/warp_example_base.jpg
-show_in_home: True
+selected: True
 category: publications
 related_publications: zeng2022covid
 importance: 10
