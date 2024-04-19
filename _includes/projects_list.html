@@ -55,8 +55,16 @@
             {% for link in entry.links %}
             <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button">{{ link.name }}</a>
             {% endfor %}
+            {% if entry.related_publications %}
+            <a class="related_publications btn btn-sm z-depth-0" role="button">related publications</a>
+            {% endif %}
           </div>
         </div>
+
+          <!-- Publications -->
+          <div class="related_publications hidden">
+            {% bibliography -f {{ site.scholar.bibliography }} --group_by none -q @*[key^={{ entry.related_publications }}]* %}
+          </div>
       </div>
     </li>
     {%- endfor %}

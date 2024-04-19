@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 date: 2017-12-03
 title: Quiz it!
 competition: YHacks

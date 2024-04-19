@@ -8,6 +8,10 @@ $(document).ready(function() {
     $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass('open');
   });
+  $('a.related_publications').click(function() {
+    $(this).parent().parent().find(".related_publications.hidden").toggleClass('open');
+    $(this).parent().parent().parent().find(".related_publications.hidden").toggleClass('open');
+  });
   $('a').removeClass('waves-effect waves-light');
 
   // bootstrap-toc
