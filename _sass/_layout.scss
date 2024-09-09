@@ -195,6 +195,14 @@ body.sticky-bottom-footer {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.related_publications.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.related_publications.hidden.open {
+        border-color: var(--global-text-color);
+      }
     }
   }
 }

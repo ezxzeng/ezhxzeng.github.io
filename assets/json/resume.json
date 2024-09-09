@@ -12,7 +12,11 @@
       "startDate": "2021",
       "endDate": "2021",
       "summary": "Incorporated synthetic data for training lane detection model.",
-      "highlights": []
+      "highlights": [
+        "Developed data pipeline and experimented with ways to incorporate synthetic data to best target challenging scenarios in dangerous driving conditions",
+        "Resolved critical failure scenarios blocking PathNetV4 release and improved quantitative performance metrics",
+        "Developed tools to better visualize and identify challenging scenarios"
+      ]
     },
     {
       "name": "NVIDIA",
@@ -21,7 +25,11 @@
       "startDate": "2020",
       "endDate": "2020",
       "summary": "Time series light signal detection for autonomous vehicles.",
-      "highlights": []
+      "highlights": [
+        "Detection of blinking light signals, eg. turn signal, brake signal, hazard lights, etc.",
+        "Laid groundwork by defining labelling guidelines, potential model architectures",
+        "Trained proof of concept classification network using public data"
+      ]
     },
     {
       "name": "MIOVISION",
@@ -30,7 +38,11 @@
       "startDate": "2019",
       "endDate": "2019",
       "summary": "Traffic data analysis with computer vision.",
-      "highlights": []
+      "highlights": [
+        "Led project to introduce active learning techniques to data ingest pipeline",
+        "Optimized selection of images for labeling from large unlabelled pool via estimating model uncertainty (monte carlo dropout)",
+        "42% improvement in mean average precision between model trained on most uncertain images compared to the least"
+      ]
     },
     {
       "name": "SYNAPSE TECHNOLOGY",
@@ -39,7 +51,10 @@
       "startDate": "2019",
       "endDate": "2019",
       "summary": "Developed and analyzed CNN models for detecting threats in security x-ray scans.",
-      "highlights": []
+      "highlights": [
+        "Developed fine grain rotational data augmentation method for object detection through automatic bounding box labelling on rotated images",
+        "Significantly improved model performance in underrepresented classes"
+      ]
     },
     {
       "name": "PRAEMO",
@@ -57,7 +72,7 @@
       "startDate": "2017",
       "endDate": "2017",
       "summary": "Robotic navigation using reinforcement learning (Deep Q-learning) and IR sensors.",
-      "highlights": []
+      "highlights": ["95% success rate in simulation and 85% success rate on physical robot"]
     }
   ],
   "volunteer": [],
@@ -65,7 +80,17 @@
     {
       "institution": "UNIVERSITY OF WATERLOO",
       "url": "",
-      "area": "Vision and Image Processing Lab",
+      "area": "Vision and Image Processing Lab, supervised by Dr. Alexander Wong",
+      "studyType": "PhD",
+      "startDate": "2023",
+      "endDate": "2027",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "UNIVERSITY OF WATERLOO",
+      "url": "",
+      "area": "Vision and Image Processing Lab, supervised by Dr. Alexander Wong",
       "studyType": "MASc",
       "startDate": "2021",
       "endDate": "2023",
