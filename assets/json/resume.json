@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Zhixuan Zeng",
+    "name": "Emily Zhixuan Zeng",
     "label": "PhD Student in Vision and Image Processing",
     "image": "",
     "email": "zhixuan.zeng@gmail.com",
@@ -131,6 +131,12 @@
     }
   ],
   "publications": [
+    {
+      "name": "Decoding Diffusion: A Scalable Framework for Unsupervised Analysis of Latent Space Biases and Representations Using Natural Language Prompts",
+      "publisher": "Neurips Safe Generative AI Workshop 2024",
+      "releaseDate": 2024,
+      "summary": "Measuring biases and visualizing concept clusters through sampling from the H-Space in diffusion models"
+    },
     {
       "name": "ShapeShift: Superquadric-based Object Pose Estimation for Robotic Grasping",
       "publisher": "CVPR 2023, WICV workshop",
